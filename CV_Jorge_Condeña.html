@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>Mi Pagina CV</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+        <style>
+            * {
+                font-family: 'Roboto', sans-serif;
+            }
+
+            h1, h4, ul, h5 {
+                margin: 0;
+            }
+
+            h5 {
+                color: rgb(17, 135, 182);
+            }
+
+            header {
+                background-color: lightgray;
+                padding: 15px;
+                border: 1px solid darkgray;
+                margin-bottom: 15px;
+                display: flex;
+            }
+
+            .grupo {
+                padding: 15px;
+                border: 1px solid darkgray;
+                margin-bottom: 15px;
+                width: 50%;
+                margin-left: 7.5px;
+                margin-right: 7.5px;
+            }
+
+            img {
+                margin-right: 15px;
+                border-radius: 100%;
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+            }
+
+            header div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .contenedor {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            li {
+                font-size: 10px;
+            }
+
+            .ancho-completo {
+                width: calc(100% - 45px);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="http://www.cies.org.pe/sites/default/files/1-Jorge-Alberto-condena-Llantoy.jpg" alt="">
+            <div>
+                <h1>Jorge Condeña</h1>
+                <h4>Curriculum Vitae</h4>
+            </div>
+        </header>
+
+        <div class="contenedor">
+            <article class="grupo">
+                <h5>Experiencia Laboral</h5>
+                <ul>
+                    <li>Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad
+                        Intelectual - Indecopi
+                        <ul>
+                            <li>Consultor en Secretaria Técnica de la Comisión de Defensa de Libre Competencia</li>
+                        </ul>
+                    </li>
+                    <li>Mercado de Capitales, Inversiones y Finanzas Consultores - MCIF</li>
+                    <ul>
+                        <li>Analista Junior en Economía, Finanzas y Gestión</li>
+                    </ul>
+                    <li>Superintendencia de Banca y Seguros - SBS</li>
+                    <ul>
+                        <li>Dpto. de Análisis de los Sistemas Asegurador y Previsional</li>
+                        <li>Practicante</li>
+                    </ul>
+                    <li>MAXIMIXE Consultores</li>
+                    <ul>
+                        <li>Área de Inteligencia de Negocios y Mercados</li>
+                        <li>Analista</li>
+                    </ul>
+                </ul>
+            </article>
+    
+            <article class="grupo">
+                <h5>Educación</h5>
+                <ul>
+                    <li>Summer School of Economics - Universidad Nacional de Ingeniería</li>
+                    <li>Bachiller en Economía - Pontificia Universidad Católica del Perú</li>
+                </ul>
+            </article>
+        </div>
+        <article class="grupo ancho-completo">
+            <h5>Información Personal</h5>
+            <ul>
+                <li>Edad: 26</li>
+                <li>Nacionalidad: Peruano</li>
+            </ul>
+        </article>
+    </body>
+</html>
+
